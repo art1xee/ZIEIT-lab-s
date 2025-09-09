@@ -46,9 +46,7 @@ const Review = () => {
           <FaChevronRight />
         </button>
       </div>
-      <button onClick={randomCard} className="random-btn">
-        surprise me
-      </button>
+      <button onClick={randomCard} className="random-btn">surprise me</button>
     </article>
   );
 };
